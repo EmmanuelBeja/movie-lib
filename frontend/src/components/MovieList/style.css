@@ -1,0 +1,93 @@
+.add-movie-container {
+  width: 100vw;
+  height: 150px;
+  background-image: url('/strange.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movie {
+  display: flex;
+}
+
+.movies-container {
+  width: 60vw;
+  height: 360px;
+  margin: 20px 50px;
+  overflow: scroll;
+  background-color: white;
+  padding: 0px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.movies-title {
+  position: sticky;
+  top: 0;
+  width: 65vw;
+  background-color: white;
+  padding: 10px 0px 0px;
+}
+.btn-movie{
+  height: 70px;
+  width: 100%;
+  margin: 5px;
+  background-color: #008095;
+  color: white;
+  border-radius: 5px;
+}
+.btn-movie:hover{
+  background-color: #008080;
+  box-shadow: 1px 1px 3px 3px grey;
+}
+.movie-container {
+  margin: 20px;
+  width: 25vw;
+}
+
+.movie-details {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.movies-by {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  overflow: scroll;
+  height: 150px;
+}
+
+.form-container {
+  padding-top: 50px
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input {
+  height: 20px;
+  width: 200px;
+  margin: 5px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form-select {
+  height: 35px;
+}
+
+.btn-add-movie {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+}
